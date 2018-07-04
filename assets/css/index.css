@@ -1,0 +1,45 @@
+body{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+.top-bg{
+	width: 100vw;
+	height: 330px;
+	background-image: url('../images/image.jpg');
+	background-size: cover;	
+	border-bottom: 10px solid #ffd54f;
+															
+}
+.overlay-text{
+   justify-content: center;
+   text-align: center;
+   margin-top: 130px;
+   font-weight: 500;
+   color: #fff;
+}
+.jumbotron{
+	width: 100vw;
+	height: 100%;
+	overflow-y: hidden;
+}
+.text{
+	background-color: #fff;
+	line-height: 42px;
+	font-size: 18px;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: -16px;
+}
+.text a{
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid black;
+}
+.text a:hover{
+	border-bottom: 1px solid #ffd54f;
+}
+footer{
+	border-top: 1px solid #c6c6c6;
+	font-size: 13px;
+}
